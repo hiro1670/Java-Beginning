@@ -1,16 +1,14 @@
 package capter5;
 
 public class multipleArguments {
-
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		add(100, 20);
-		add(200, 50);
+	
+	public static int add(int x, int y) {
+		int ans = x + y;
+		return ans;
 	}
 	
-	public static void add(int x, int y) {
-		int ans = x + y;
-		System.out.println(x + "+" + y + "=" + ans);
+	public static void main(String[] args) {
+		int ans = add(100, 10);
+		System.out.println("100 + 10 = " + ans);
 	}
-
 }
