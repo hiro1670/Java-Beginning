@@ -7,7 +7,7 @@ public class passarguments {
 		hello("湊");
 		hello("朝香");
 		hello("菅原");
-		System.out.println("メソッドの呼び出しが終わりました");
+		System.out.println("メゾットの呼び出しを終わります");
 	}
 	
 	public static void hello(String name) {

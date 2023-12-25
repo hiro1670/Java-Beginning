@@ -8,7 +8,7 @@ public class arguments {
 	}
 	
 	public static void add(int x, int y) {
-		int total = x + y;
-		System.out.println(x + "+" + y + "=" + total);
+		int ans = x + y;
+		System.out.println(x + "+" + y + "=" + ans);
 	}
 }
