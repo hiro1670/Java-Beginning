@@ -1,6 +1,6 @@
 package capter6_1;
 
-public class Split {
+public class Clac {
 	
 	public static void main(String[] args) {
 		int a = 10; int b = 2;
@@ -8,5 +8,4 @@ public class Split {
 		int delta = CalcLogic.hiku(a, b);
 		System.out.println("足すと" + total + "、引くと" + delta);
 	}
-
 }
