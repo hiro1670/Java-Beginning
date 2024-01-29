@@ -21,6 +21,8 @@ public class Main {
 		//3.勇者のメソッドを呼び出してゆく
 		h.slip();
 		m1.run();
+		m2.run();
+		h.run();
 	}
 
 }
