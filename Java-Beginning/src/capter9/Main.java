@@ -1,26 +1,32 @@
 package capter9;
 
-import capter8.Hero;
-
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		Sword s = new Sword();
+		Hero h1 = new Hero();
 		
-		s.name = "炎の剣";
+		h1.name = "ミナト";
 		
-		s.damage = 10;
+		h1.hp = 100;
 		
-		Hero h = new Hero();
+		Hero h2 = new Hero();
 		
-		h.name = "ミナト";
+		h2.name = "アサカ";
 		
-		h.hp = 100;
+		h2.hp = 100;
 		
-		h.sword = s;
+		Wizard w = new Wizard();
 		
-		System.out.println("現在の武器は" + h.sword.name);
+		w.name = "スガワラ";
+		
+		w.hp = 50;
+		
+		w.heal(h1);
+		
+		w.heal(h2);
+		
+		w.heal(h2);
 	}
 
 }
