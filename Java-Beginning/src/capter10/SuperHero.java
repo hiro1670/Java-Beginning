@@ -1,10 +1,6 @@
 package capter10;
 
 public class SuperHero extends Hero {
-	String name = "ミナト";
-	
-	int hp = 100;
-	
 	boolean flying;
 	//飛ぶ
 	public void fly() {
@@ -17,5 +13,9 @@ public class SuperHero extends Hero {
 		this.flying = false;
 		
 		System.out.println("着地した！");
+	}
+	
+	public void run() {
+		System.out.println(this.name + "は撤退した");
 	}
 }
