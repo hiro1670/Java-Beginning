@@ -1,6 +1,14 @@
 package capter10;
 
+import capter8.Matango;
+
 public class SuperHero extends Hero {
+	public void attack(Matango m) {
+		super.attack(m);
+		if (this.flying) {
+			super.attack(m);
+		}
+	}
 	boolean flying;
 	//飛ぶ
 	public void fly() {
