@@ -1,5 +1,7 @@
 package capter11;
 
+import capter8.Matango;
+
 public class Character {
 	String name;
 	
@@ -10,8 +12,5 @@ public class Character {
 	}
 	//戦う
 	public void attack(Matango m) {
-		System.out.println(this.name + "の攻撃！");
-		m.hp -= ??;
-		System.out.println("敵に??ポイントのダメージをあたえた！");
 	}
 }
