@@ -2,7 +2,7 @@ package capter11;
 
 import capter8.Matango;
 
-public class Character {
+public abstract class Character {
 	String name;
 	
 	int hp;
